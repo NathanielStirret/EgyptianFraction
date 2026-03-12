@@ -1,17 +1,15 @@
-# Hoffman algorithm
+# Egyptian Fraction Decomposition
 
 ## Description
 
-This program implements Huffman Coding, an algorithm that has been used for data compression. The general idea is to represent more common characters with fewer bits.
-
-The program asks the user for a string, counts how often each character appears, builds a Huffman tree, and then prints the binary code for each character.
+This program implements Egyptian Fraction Decomposition, this algorith takes any fraction and expresses it as a sum of unit fractions (1/dem). It does this my repeatedly subtracting and storeing the largest unit fraction out of the remainder of the intial fraction.
 
 ## Greedy
-This algorithm sorts by frequency lowest to highest. By pushing nodes down it guarantees that the rarest nodes are at the bottom and the most common are at the top. Then when you traverse the tree to decode it the path you take to the node determines the assignment, right is one left is zero.
+This algorithm does not need to sort anything because we simply take the largest unit fraction that is still less than the remaining value. To compute the denominator of this unit fraction, I take the ceiling of the denominator divided by the numerator. Then I subtract the reciprocal of this number from the remainder and store it. After that, I simplify the fraction and repeat the process.
 
 ### Video
 
-https://www.youtube.com/watch?v=iEm1NRyEe5c
+[https://www.youtube.com/watch?v=iEm1NRyEe5c](https://www.youtube.com/watch?v=aVUUbNbQkbQ)
 
 ### Wikipedia Page
 
