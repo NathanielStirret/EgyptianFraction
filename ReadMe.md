@@ -9,11 +9,11 @@ This algorithm does not need to sort anything because we simply take the largest
 
 ### Video
 
-[https://www.youtube.com/watch?v=iEm1NRyEe5c](https://www.youtube.com/watch?v=aVUUbNbQkbQ)
+https://www.youtube.com/watch?v=aVUUbNbQkbQ
 
 ### Wikipedia Page
 
-https://en.wikipedia.org/wiki/Huffman_coding
+https://en.wikipedia.org/wiki/Greedy_algorithm_for_Egyptian_fractions
 
 
 ## Program
